@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(239, 237, 237);
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    'writting writting form form';
+}
+
+#writting{
+    grid-area: writting;
+    /* border: 2px solid black; */
+    width: 829px;
+    height: 1000px;
+}
+#writting h1{
+    font-size: 4rem;
+    margin: 0px 230px;
+    margin-top: 200px;
+    color: #0165E1;
+}
+#writting h3{
+    font-size: 30px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    margin: 0px;
+    padding-left: 230px;
+}
+#form{
+    grid-area: form;
+    /* border: 2px solid black; */
+    height: 1000px;
+    width: 612px;
+    
+}
+#container{
+    /* border: 2px solid red; */
+    width: 413px;
+    height: 353px;
+    margin-top: 145px;
+    box-shadow:  1px 1px 20px rgb(187, 186, 186);
+    background-color: white;
+    border-radius: 10px;
+}
+#container input{
+    width: 388px;
+    height: 46px;
+    margin: 9px 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid rgb(236, 235, 235);
+}
+#container input:hover{
+    border: 1px solid #0165E1;
+}
+.btn{
+    width: 388px;
+    height: 46px;
+    margin: 9px 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: #0165E1;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+   
+    background-color: #095cc3;
+}
+#container a{
+    margin: 0px 135px;
+    text-decoration: none;
+    color: rgb(63, 63, 238);
+    font-weight: bold;
+}
+.anchor{
+    margin: 10px 0px;
+    margin-bottom: 22px
+}
+.anchor:hover{
+   text-decoration:underline;
+}
+.btn2{
+    width: 278px;
+    height: 50px;
+    margin: 10px 67px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(74, 190, 42);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn2:hover{
+    
+    background-color: rgb(66, 174, 36);
+    
+}
+.line{
+    margin: 28px 48px;
+}
+
+
